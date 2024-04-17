@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: #266094;
+}
+
+.title {
+	margin-bottom: 3rem;
+	font-size: 4rem;
+	font-family: 'Arial', sans-serif;
+	color: #E59F2D;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+	border: 5px solid;
+	border-radius: 3rem;
+	background: #77A2CA;
+}
+.display {
+	font-size: 5rem;
+	font-family: monospace;
+	font-weight: bold;
+	color: #AC7D44;
+	text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+	margin-bottom: 25px;
+}
+.controls button{
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 10px 20px;
+	margin: 5px;
+	min-width: 125px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	color: wheat;
+	transition: background-color 0.3s ease;
+}
+
+.startButton {
+	background-color: hsl(128, 76%, 29%);
+}
+
+.startButton:hover {
+	background-color: hsl(128, 76%, 19%);
+}
+.stopButton {
+	background-color: hsl(0, 100%, 29%);
+}
+
+.stopButton:hover {
+	background-color: hsl(0, 100%, 19%);
+}
+
+.resetButton {
+	background-color: hsl(251, 100%, 29%);
+}
+
+.resetButton:hover {
+	background-color: hsl(251, 100%, 19%);
+}
